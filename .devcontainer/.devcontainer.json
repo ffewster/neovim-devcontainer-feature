@@ -1,0 +1,15 @@
+{
+	"image": "debian:12-slim",
+	"dockerComposeFile": ["./docker-compose.yaml"],
+	"service": "test_container",
+	"remoteUser": "root",
+	"containerUser": "root",
+	"runServices": ["test_container"],
+	"features": {
+		"ghcr.io/ffewster/neovim:latest": {
+			"version": "latest"	,
+			"configRepo": "https://github.com/ffewster/nvim"	
+		},
+	},
+
+}

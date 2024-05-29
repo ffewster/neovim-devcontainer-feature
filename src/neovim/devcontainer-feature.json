@@ -1,0 +1,30 @@
+{
+	"name": "Neovim Devcontainer Feature Config",
+	"id": "neovim",
+	"version": "0.0.1",
+	"description": "Installs Neovim",
+	"documentationURL": "https://github.com/ffewster/neovim-devcontainer-feature",
+	"options": {
+		"version": {
+			"type": "string",
+			"default": "latest",
+			"description": "sets the version of neovim to be installed. Can be latest or a valid neovim release.",
+			"proposals": [ "latest", "v0.9.5" ]
+		},
+		"configrepo": {
+			"type": "string",
+			"default": "",
+			"description": "used to automatically pull your config from a public git repository",
+			"proposals": [ "https://github.com/ffewster/nvim/" ]
+		}
+	},
+	"dependsOn": {
+		"ghcr.io/devcontainers/features/common-utils": {},
+	},
+	"installsAfter": [
+		"ghcr.io/devcontainers/features/common-utils"
+	],
+	"install": {
+		"command": "./install.sh",
+	}
+}

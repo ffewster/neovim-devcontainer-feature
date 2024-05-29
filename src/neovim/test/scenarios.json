@@ -1,0 +1,20 @@
+{
+	"neovim-0.5.1": {
+		"image": "debian:12-slim",
+		"features": {
+			"neovim": {
+				"version": "v0.5.1",
+				"configRepo": "https://github.com/ffewster/nvim"
+			}
+		}
+	},
+	"neovim-latest": {
+		"image": "debian:12-slim",
+		"features": {
+			"neovim": {
+				"version" :"latest",
+				"configRepo": "https://github.com/ffewster/nvim"
+			}
+		}
+	}
+}

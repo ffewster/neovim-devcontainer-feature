@@ -1,0 +1,38 @@
+{
+	"debian_051": {
+		"image": "debian:12-slim",
+		"features": {
+			"neovim": {
+				"version": "v0.5.1",
+				"configRepo": "https://github.com/ffewster/nvim"
+			}
+		}
+	},
+	"debian_095": {
+		"image": "debian:12-slim",
+		"features": {
+			"neovim": {
+				"version" :"v0.9.5",
+				"configRepo": "https://github.com/ffewster/nvim"
+			}
+		}
+	},
+	"ubuntu_051": {
+		"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+		"features": {
+			"neovim": {
+				"version": "v0.5.1",
+				"configRepo": "https://github.com/ffewster/nvim"
+			}
+		}
+	},
+	"ubuntu_095": {
+		"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+		"features": {
+			"neovim": {
+				"version" :"v0.9.5",
+				"configRepo": "https://github.com/ffewster/nvim"
+			}
+		}
+	}
+}
