@@ -1,0 +1,4 @@
+services:
+  test_container:
+    image: debian:12-slim
+
