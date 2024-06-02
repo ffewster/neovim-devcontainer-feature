@@ -78,7 +78,7 @@ install() {
 		ln -s /squashfs-root/AppRun /usr/bin/nvim
 	fi
 
-	git clone $CONFIGREPO ~/.config/nvim/
+	git clone $CONFIGREPO "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 
 }
 

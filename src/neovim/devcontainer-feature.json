@@ -9,7 +9,7 @@
 			"type": "string",
 			"default": "latest",
 			"description": "sets the version of neovim to be installed. Can be latest or a valid neovim release.",
-			"proposals": [ "latest", "v0.9.5" ]
+			"proposals": [ "v0.9.5" ]
 		},
 		"configrepo": {
 			"type": "string",
