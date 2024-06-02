@@ -1,7 +1,7 @@
 {
 	"name": "Neovim Devcontainer Feature Config",
 	"id": "neovim",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Installs Neovim",
 	"documentationURL": "https://github.com/ffewster/neovim-devcontainer-feature",
 	"options": {
